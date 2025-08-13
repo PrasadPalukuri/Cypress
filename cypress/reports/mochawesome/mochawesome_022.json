@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-08-13T07:28:46.787Z",
+    "end": "2025-08-13T07:28:49.336Z",
+    "duration": 2549,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "899899f2-c878-4c4c-9c11-f706c31e3639",
+      "title": "",
+      "fullFile": "cypress\\e2e\\Practice\\Day4.cy.js",
+      "file": "cypress\\e2e\\Practice\\Day4.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "f676bb5b-65a4-490e-a9ad-35c598022e75",
+          "title": "4: Assertion",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Validation of assertion",
+              "fullTitle": "4: Assertion Validation of assertion",
+              "timedOut": null,
+              "duration": 2409,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('.text-center > .btn').should('exist'); //On page load asserting that checkbox 2 is checked and checkbox 1 is not checked\ncy.get('.text-center > .btn').should('have.text', 'Buy us a coffee'); //asserting the text\ncy.get('.navbar-brand').should('be.visible'); //asserting the visibility",
+              "err": {},
+              "uuid": "15dbc976-d547-420a-a638-5fdfe19611a0",
+              "parentUUID": "f676bb5b-65a4-490e-a9ad-35c598022e75",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "15dbc976-d547-420a-a638-5fdfe19611a0"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2409,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports/mochawesome",
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
